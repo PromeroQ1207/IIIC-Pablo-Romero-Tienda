@@ -1,0 +1,84 @@
+header {
+    position: fixed;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+}
+
+aside {
+    background-color: #ff9900; /* Color de fondo de la barra lateral */
+    width: 15%; /* Ancho de la barra lateral */
+    position: fixed; /* Hacer que la barra lateral esté fija a la izquierda */
+    top: 70px; /* Alinear la barra lateral debajo del encabezado */
+    bottom: 0; /* Extender la barra lateral hasta la parte inferior de la página */
+    padding: 1px; /* Espaciado interno de la barra lateral */
+    left: 0; /* Alinear la barra lateral completamente a la izquierda */
+}
+
+section {
+    background-color: #ffcccc; /* Color de fondo de la barra lateral */
+    margin-left: 15%; /* Dejar espacio a la izquierda de la sección principal para la barra lateral */
+    padding: 1px; /* Espaciado interno de la sección principal */
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: sans-serif; padding: 90px 20px 0;
+}
+.header {
+    background-color: #076AF0;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+    
+.nav-menu {
+    display: flex;
+    margin-right: 40px; list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px; width: max-content;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    transition: 0.5s;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+
