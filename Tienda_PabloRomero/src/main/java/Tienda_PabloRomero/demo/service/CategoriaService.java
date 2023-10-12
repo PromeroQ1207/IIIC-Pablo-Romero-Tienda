@@ -1,4 +1,4 @@
-package Tienda_PabloRomero.demo.services;
+package Tienda_PabloRomero.demo.service;
 
 import Tienda_PabloRomero.demo.domain.Categoria;
 import java.util.List;
