@@ -13,7 +13,6 @@ public class CategoriaServiceImpl implements CategoriaService {
     
     @Autowired
     private CategoriaDao categoriaDao;
-    @Override
     @Transactional(readOnly=true)
     public List<Categoria> getCategorias(boolean activos) {
         var lista=categoriaDao.findAll();
@@ -21,5 +20,10 @@ public class CategoriaServiceImpl implements CategoriaService {
            lista.removeIf(e -> !e.isActivo());
         }
         return lista;
+    }
+
+    @Override
+    public List<Categoria> getCategoria(boolean activos) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
