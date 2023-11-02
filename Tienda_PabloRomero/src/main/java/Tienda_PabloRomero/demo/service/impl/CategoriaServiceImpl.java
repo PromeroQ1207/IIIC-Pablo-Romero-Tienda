@@ -22,8 +22,4 @@ public class CategoriaServiceImpl implements CategoriaService {
         return lista;
     }
 
-    @Override
-    public List<Categoria> getCategoria(boolean activos) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
